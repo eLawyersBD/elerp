@@ -1,0 +1,962 @@
+[
+  {
+    "id": "cat-srv-1783887370243-0",
+    "code": "SRV-IITR",
+    "name": "Individual Income Tax Return Submission",
+    "baseFee": 5000,
+    "description": "We provide end-to-end assistance for accurate preparation and submission of individual income tax returns in compliance with NBR regulations, ensuring maximum compliance and risk-free filing.",
+    "category": "Tax & VAT Services",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370251-1",
+    "code": "SRV-CTRS",
+    "name": "Corporate Tax Return Submission",
+    "baseFee": 15000,
+    "description": "Comprehensive corporate tax return preparation and submission service ensuring full compliance with Bangladesh tax laws, optimized reporting and timely filing with NBR.",
+    "category": "Tax & VAT Services",
+    "slaHours": 336,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370255-2",
+    "code": "SRV-FTRS",
+    "name": "Foundation Tax Return Submission",
+    "baseFee": 15000,
+    "description": "E-Lawyers offers comprehensive support to Foundations in Bangladesh for the accurate and timely submission of their annual tax returns to the National Board of Revenue (NBR). Our service ensures full compliance with the Income Tax Ordinance, 1984, and related regulations, protecting your Foundation from potential penalties and upholding its legal integrity and financial transparency.",
+    "category": "Tax & VAT Services",
+    "slaHours": 336,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370258-3",
+    "code": "SRV-NTRS",
+    "name": "NGO Tax Return Submission",
+    "baseFee": 15000,
+    "description": "Specialized NGO tax return filing service ensuring regulatory compliance, accurate reporting and timely submission to the National Board of Revenue.",
+    "category": "Tax & VAT Services",
+    "slaHours": 336,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370261-4",
+    "code": "SRV-WTRS",
+    "name": "Withholding Tax Return Submission",
+    "baseFee": 5000,
+    "description": "Expert assistance in withholding tax return preparation, calculation, and submission ensuring compliance with all applicable tax deduction rules.",
+    "category": "Tax & VAT Services",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370265-5",
+    "code": "SRV-MVRS",
+    "name": "Monthly VAT Return Submission",
+    "baseFee": 3000,
+    "description": "E-Lawyers provides expert assistance for timely and accurate monthly Value Added Tax (VAT) return submission, ensuring your business full compliance with Bangladesh's National Board of Revenue (NBR) regulations. Our service mitigates the risk of penalties, interest, and potential audits, allowing your business to operate smoothly and efficiently.",
+    "category": "Tax & VAT Services",
+    "slaHours": 120,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370268-6",
+    "code": "SRV-TPWRF",
+    "name": "Tax Payment with Return Filing",
+    "baseFee": 2000,
+    "description": "This crucial service ensures individuals, companies, and organizations meticulously fulfill their annual tax obligations in Bangladesh. E-Lawyers provides comprehensive support, from accurate income tax return (ITR) preparation to facilitating timely payment with the National Board of Revenue (NBR). Our expertise guarantees compliance with current tax laws, minimizing legal exposure and optimizing your financial position.",
+    "category": "Tax & VAT Services",
+    "slaHours": 120,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370271-7",
+    "code": "SRV-TAS",
+    "name": "Tax Advisory Services",
+    "baseFee": 5000,
+    "description": "Professional tax advisory service providing strategic guidance on tax planning, compliance, and optimization under Bangladesh tax regulations.",
+    "category": "Tax & VAT Services",
+    "slaHours": 72,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370274-8",
+    "code": "SRV-PTDP",
+    "name": "Previous Tax Due Processing",
+    "baseFee": 10000,
+    "description": "Support for resolving previous tax liabilities, assessments, and outstanding dues with proper compliance and documentation.",
+    "category": "Tax & VAT Services",
+    "slaHours": 336,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370276-9",
+    "code": "SRV-TCW",
+    "name": "Tax Certificate Withdrawal",
+    "baseFee": 3000,
+    "description": "Assistance in obtaining and processing tax-related certificates ensuring proper documentation and regulatory approval.",
+    "category": "Tax & VAT Services",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370279-10",
+    "code": "SRV-WITR",
+    "name": "Withdrawal of Individual Tax Return",
+    "baseFee": 5000,
+    "description": "Legal and administrative support for withdrawal or correction of tax returns in compliance with NBR procedures.",
+    "category": "Tax & VAT Services",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370282-11",
+    "code": "SRV-RCRPL",
+    "name": "RJSC Company Registration (Private Limited)",
+    "baseFee": 25000,
+    "description": "Complete RJSC private limited company registration service including name clearance, incorporation documents, and regulatory compliance support.",
+    "category": "Registration & Incorporation (RJSC / Business Setup)",
+    "slaHours": 504,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370286-12",
+    "code": "SRV-FIBR",
+    "name": "Foundation Incorporation By RJSC",
+    "baseFee": 35000,
+    "description": "Assistance in foundation incorporation through RJSC ensuring legal structuring and compliance with registration requirements.",
+    "category": "Registration & Incorporation (RJSC / Business Setup)",
+    "slaHours": 720,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370290-13",
+    "code": "SRV-PFRR",
+    "name": "Partnership Firm Registration (RJSC)",
+    "baseFee": 15000,
+    "description": "Professional partnership firm registration service ensuring proper legal structure and RJSC compliance.",
+    "category": "Registration & Incorporation (RJSC / Business Setup)",
+    "slaHours": 336,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370293-14",
+    "code": "SRV-NRBR",
+    "name": "NGO Registration by RJSC",
+    "baseFee": 40000,
+    "description": "NGO registration support through RJSC including documentation, submission, and approval assistance.",
+    "category": "Registration & Incorporation (RJSC / Business Setup)",
+    "slaHours": 720,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370297-15",
+    "code": "SRV-DBIDR",
+    "name": "Digital Business Identification (DBID) Registration",
+    "baseFee": 5000,
+    "description": "Assistance in obtaining a Digital Business Identification (DBID) from the relevant authority, including application preparation, document review, submission, follow-up, and compliance support to ensure successful registration and issuance of the DBID certificate.",
+    "category": "Registration & Incorporation (RJSC / Business Setup)",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370300-16",
+    "code": "SRV-RCRO",
+    "name": "RJSC Company Registration (OPC)",
+    "baseFee": 20000,
+    "description": "Company registration and incorporation support ensuring full compliance with RJSC requirements in Bangladesh.",
+    "category": "Registration & Incorporation (RJSC / Business Setup)",
+    "slaHours": 504,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370303-17",
+    "code": "SRV-RCRFS",
+    "name": "RJSC Company Registration (Foreign Shareholder)",
+    "baseFee": 50000,
+    "description": "Company registration and incorporation support ensuring full compliance with RJSC requirements in Bangladesh.",
+    "category": "Registration & Incorporation (RJSC / Business Setup)",
+    "slaHours": 720,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370306-18",
+    "code": "SRV-SRBR",
+    "name": "Society Registration By RJSC",
+    "baseFee": 35000,
+    "description": "Company registration and incorporation support ensuring full compliance with RJSC requirements in Bangladesh.",
+    "category": "Registration & Incorporation (RJSC / Business Setup)",
+    "slaHours": 720,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370308-19",
+    "code": "SRV-ETR",
+    "name": "E-TIN Registration",
+    "baseFee": 1000,
+    "description": "Comprehensive tax-related service ensuring compliance with Bangladesh National Board of Revenue regulations.",
+    "category": "Tax ID / BIN / TIN Services",
+    "slaHours": 48,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370311-20",
+    "code": "SRV-ETR2",
+    "name": "E-TIN Recovery",
+    "baseFee": 2000,
+    "description": "This service is designed for individuals and businesses in Bangladesh who have lost access to their Electronic Taxpayer Identification Number (E-TIN) account due to forgotten passwords, lost associated email/phone numbers, or other access issues. We facilitate the swift and secure recovery of your E-TIN credentials, ensuring uninterrupted tax compliance and preventing penalties.",
+    "category": "Tax ID / BIN / TIN Services",
+    "slaHours": 72,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370314-21",
+    "code": "SRV-PFTR",
+    "name": "Partnership Firm TIN Registration",
+    "baseFee": 2000,
+    "description": "Comprehensive tax-related service ensuring compliance with Bangladesh National Board of Revenue regulations.",
+    "category": "Tax ID / BIN / TIN Services",
+    "slaHours": 72,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370318-22",
+    "code": "SRV-CTR",
+    "name": "Company TIN Registration",
+    "baseFee": 2000,
+    "description": "Comprehensive tax-related service ensuring compliance with Bangladesh National Board of Revenue regulations.",
+    "category": "Tax ID / BIN / TIN Services",
+    "slaHours": 72,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370321-23",
+    "code": "SRV-CBR",
+    "name": "Company BIN Registration",
+    "baseFee": 5000,
+    "description": "E-Lawyers offers expert assistance for Company Business Identification Number (BIN) registration in Bangladesh. This mandatory registration is crucial for VAT compliance, legal business operations, and facilitating both domestic and international trade. Our service streamlines the entire process, ensuring your company obtains its official BIN from the National Board of Revenue (NBR) efficiently and without hassle, enabling proper tax management.",
+    "category": "Tax ID / BIN / TIN Services",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370323-24",
+    "code": "SRV-PBR",
+    "name": "Proprietorship BIN Registration",
+    "baseFee": 3000,
+    "description": "Comprehensive tax-related service ensuring compliance with Bangladesh National Board of Revenue regulations.",
+    "category": "Tax ID / BIN / TIN Services",
+    "slaHours": 120,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370325-25",
+    "code": "SRV-PBR2",
+    "name": "Partnership BIN Registration",
+    "baseFee": 4000,
+    "description": "Comprehensive tax-related service ensuring compliance with Bangladesh National Board of Revenue regulations.",
+    "category": "Tax ID / BIN / TIN Services",
+    "slaHours": 120,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370328-26",
+    "code": "SRV-BC",
+    "name": "BIN Correction",
+    "baseFee": 3000,
+    "description": "Comprehensive tax-related service ensuring compliance with Bangladesh National Board of Revenue regulations.",
+    "category": "Tax ID / BIN / TIN Services",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370330-27",
+    "code": "SRV-CCB",
+    "name": "Category Correction (BIN)",
+    "baseFee": 3000,
+    "description": "Comprehensive tax-related service ensuring compliance with Bangladesh National Board of Revenue regulations.",
+    "category": "Tax ID / BIN / TIN Services",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370335-28",
+    "code": "SRV-BNCTCA",
+    "name": "BIN Number Connect to C&F Agent",
+    "baseFee": 5000,
+    "description": "This essential service legally establishes the necessary linkage between your Business Identification Number (BIN) and your designated Clearing & Forwarding (C&F) Agent in Bangladesh. This vital linkage legally empowers the C&F Agent to execute customs clearance procedures on your behalf, guaranteeing efficient and compliant import/export cargo movement and preventing costly delays.",
+    "category": "Tax ID / BIN / TIN Services",
+    "slaHours": 120,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370338-29",
+    "code": "SRV-CCTL",
+    "name": "Category Correction (Trade License)",
+    "baseFee": 5000,
+    "description": "Comprehensive tax-related service ensuring compliance with Bangladesh National Board of Revenue regulations.",
+    "category": "Tax ID / BIN / TIN Services",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370341-30",
+    "code": "SRV-TLR",
+    "name": "Trade License Registration",
+    "baseFee": 5000,
+    "description": "Complete trade license registration support including documentation, application, and approval assistance.",
+    "category": "Trade License Services",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370344-31",
+    "code": "SRV-TLR2",
+    "name": "Trade License Renewal",
+    "baseFee": 3000,
+    "description": "Trade license renewal service ensuring uninterrupted business operations and full legal compliance.",
+    "category": "Trade License Services",
+    "slaHours": 120,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370346-32",
+    "code": "SRV-TLCU",
+    "name": "Trade License Category Update",
+    "baseFee": 4000,
+    "description": "Professional trade license support service ensuring compliance with local authority requirements.",
+    "category": "Trade License Services",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370351-33",
+    "code": "SRV-TLNUR",
+    "name": "Trade License Name Update / Renaming",
+    "baseFee": 4000,
+    "description": "Professional trade license support service ensuring compliance with local authority requirements.",
+    "category": "Trade License Services",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370353-34",
+    "code": "SRV-TLC",
+    "name": "Trade License Cancellation",
+    "baseFee": 10000,
+    "description": "E-Lawyers offers expert legal and business consultancy for the professional and compliant cancellation of Trade Licenses in Bangladesh. This critical service is essential for businesses ceasing operations, relocating their primary trade activity outside the current jurisdiction, or undergoing significant business structure changes. Proper cancellation prevents future liabilities, penalties, and ensures a clean legal closure or transition.",
+    "category": "Trade License Services",
+    "slaHours": 336,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370356-35",
+    "code": "SRV-TLFP",
+    "name": "Trade License for Proprietorship",
+    "baseFee": 5000,
+    "description": "Professional trade license support service ensuring compliance with local authority requirements.",
+    "category": "Trade License Services",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370358-36",
+    "code": "SRV-TLFP2",
+    "name": "Trade License for Partnership",
+    "baseFee": 6000,
+    "description": "Professional trade license support service ensuring compliance with local authority requirements.",
+    "category": "Trade License Services",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370361-37",
+    "code": "SRV-TLFPLC",
+    "name": "Trade License for Private Limited Company",
+    "baseFee": 10000,
+    "description": "Professional trade license support service ensuring compliance with local authority requirements.",
+    "category": "Trade License Services",
+    "slaHours": 240,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370364-38",
+    "code": "SRV-TLC2",
+    "name": "Trade License Correction",
+    "baseFee": 4000,
+    "description": "Assistance in correcting trade license information ensuring accurate legal documentation.",
+    "category": "Trade License Services",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370367-39",
+    "code": "SRV-FL",
+    "name": "Fire License",
+    "baseFee": 20000,
+    "description": "Assistance in obtaining required government licenses and approvals ensuring full regulatory compliance and smooth approval process.",
+    "category": "Licenses & Government Approvals",
+    "slaHours": 720,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370370-40",
+    "code": "SRV-FL2",
+    "name": "Factory License",
+    "baseFee": 25000,
+    "description": "Assistance in obtaining required government licenses and approvals ensuring full regulatory compliance and smooth approval process.",
+    "category": "Licenses & Government Approvals",
+    "slaHours": 720,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370372-41",
+    "code": "SRV-ELCC",
+    "name": "Environmental License / Clearance Certificate",
+    "baseFee": 50000,
+    "description": "Assistance in obtaining required government licenses and approvals ensuring full regulatory compliance and smooth approval process.",
+    "category": "Licenses & Government Approvals",
+    "slaHours": 1080,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370374-42",
+    "code": "SRV-BCPA",
+    "name": "BSTI Certification / Packaging Approval",
+    "baseFee": 40000,
+    "description": "Assistance in obtaining required government licenses and approvals ensuring full regulatory compliance and smooth approval process.",
+    "category": "Licenses & Government Approvals",
+    "slaHours": 1080,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370376-43",
+    "code": "SRV-DL",
+    "name": "Drug License",
+    "baseFee": 30000,
+    "description": "Assistance in obtaining required government licenses and approvals ensuring full regulatory compliance and smooth approval process.",
+    "category": "Licenses & Government Approvals",
+    "slaHours": 720,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370379-44",
+    "code": "SRV-DL2",
+    "name": "DOT License",
+    "baseFee": 25000,
+    "description": "Assistance in obtaining required government licenses and approvals ensuring full regulatory compliance and smooth approval process.",
+    "category": "Licenses & Government Approvals",
+    "slaHours": 720,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370383-45",
+    "code": "SRV-EL",
+    "name": "Explosive License",
+    "baseFee": 100000,
+    "description": "E-Lawyers offers expert legal assistance for securing Explosive Licenses in Bangladesh. This critical service is indispensable for businesses and organizations involved in the import, export, manufacture, possession, sale, or use of explosives, such as those in construction, mining, and pyrotechnics. We ensure full compliance with the Explosives Act, 1884, and all relevant regulatory frameworks, mitigating risks and upholding public safety standards.",
+    "category": "Licenses & Government Approvals",
+    "slaHours": 1440,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370387-46",
+    "code": "SRV-IRC",
+    "name": "Import Registration Certificate (IRC)",
+    "baseFee": 15000,
+    "description": "Assistance in obtaining required government licenses and approvals ensuring full regulatory compliance and smooth approval process.",
+    "category": "Licenses & Government Approvals",
+    "slaHours": 336,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370390-47",
+    "code": "SRV-ERC",
+    "name": "Export Registration Certificate (ERC)",
+    "baseFee": 15000,
+    "description": "E-Lawyers offers expert legal and business consultancy for obtaining the mandatory Export Registration Certificate (ERC) in Bangladesh. Issued by the Office of the Chief Controller of Imports & Exports (CCI&E), the ERC is a prerequisite for all entities aiming to legally export goods or services from Bangladesh, ensuring compliance with the Import Policy Order and enabling access to various government incentives and trade benefits.",
+    "category": "Licenses & Government Approvals",
+    "slaHours": 336,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370392-48",
+    "code": "SRV-IRCR",
+    "name": "IRC Renewal",
+    "baseFee": 5000,
+    "description": "Assistance in obtaining required government licenses and approvals ensuring full regulatory compliance and smooth approval process.",
+    "category": "Licenses & Government Approvals",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370395-49",
+    "code": "SRV-ERCR",
+    "name": "ERC Renewal",
+    "baseFee": 5000,
+    "description": "Assistance in obtaining required government licenses and approvals ensuring full regulatory compliance and smooth approval process.",
+    "category": "Licenses & Government Approvals",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370405-50",
+    "code": "SRV-EPBR",
+    "name": "EPB Registration",
+    "baseFee": 10000,
+    "description": "Assistance in obtaining required government licenses and approvals ensuring full regulatory compliance and smooth approval process.",
+    "category": "Licenses & Government Approvals",
+    "slaHours": 240,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370408-51",
+    "code": "SRV-BIDAR",
+    "name": "BIDA Registration",
+    "baseFee": 25000,
+    "description": "Assistance in obtaining required government licenses and approvals ensuring full regulatory compliance and smooth approval process.",
+    "category": "Licenses & Government Approvals",
+    "slaHours": 504,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370412-52",
+    "code": "SRV-HSL",
+    "name": "Health & Sanitary License",
+    "baseFee": 10000,
+    "description": "Assistance in obtaining required government licenses and approvals ensuring full regulatory compliance and smooth approval process.",
+    "category": "Licenses & Government Approvals",
+    "slaHours": 336,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370415-53",
+    "code": "SRV-AADS",
+    "name": "Affidavit & Declaration Services",
+    "baseFee": 2000,
+    "description": "Professional legal and documentation service including drafting, verification, translation and compliance support.",
+    "category": "Legal & Documentation Services",
+    "slaHours": 48,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370419-54",
+    "code": "SRV-DPAD",
+    "name": "Deed Preparation & Documentation",
+    "baseFee": 5000,
+    "description": "Professional legal and documentation service including drafting, verification, translation and compliance support.",
+    "category": "Legal & Documentation Services",
+    "slaHours": 120,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370422-55",
+    "code": "SRV-DSP",
+    "name": "Deed Summary Preparation",
+    "baseFee": 3000,
+    "description": "E-Lawyers provides expert Deed Summary Preparation, condensing lengthy legal instruments (e.g., Sale, Gift, Mortgage Deeds) into precise, actionable summaries. This service is essential for rapid comprehension, due diligence, and informed decision-making in property matters, litigation, or corporate transactions. Our summaries streamline legal review, saving valuable time and mitigating risks for businesses and individuals across Bangladesh.",
+    "category": "Legal & Documentation Services",
+    "slaHours": 72,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370424-56",
+    "code": "SRV-LND",
+    "name": "Legal Notice Drafting",
+    "baseFee": 5000,
+    "description": "Our Legal Notice Drafting service provides expert preparation of formal communications that legally notify an individual or entity of an intention to undertake legal proceedings, demand compliance, or formally raise a dispute. This critical first step in dispute resolution, often a prerequisite to litigation, strategically articulates your position and seeks a structured resolution before court intervention.",
+    "category": "Legal & Documentation Services",
+    "slaHours": 72,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370427-57",
+    "code": "SRV-NS",
+    "name": "Notary Services",
+    "baseFee": 1000,
+    "description": "Professional legal and documentation service including drafting, verification, translation and compliance support.",
+    "category": "Legal & Documentation Services",
+    "slaHours": 24,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370430-58",
+    "code": "SRV-CD",
+    "name": "Case Drafting",
+    "baseFee": 10000,
+    "description": "Professional legal and documentation service including drafting, verification, translation and compliance support.",
+    "category": "Legal & Documentation Services",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370435-59",
+    "code": "SRV-NOC",
+    "name": "NOC (No Objection Certificate)",
+    "baseFee": 3000,
+    "description": "Professional legal and documentation service including drafting, verification, translation and compliance support.",
+    "category": "Legal & Documentation Services",
+    "slaHours": 120,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370440-60",
+    "code": "SRV-HCP",
+    "name": "High Court Permission",
+    "baseFee": 50000,
+    "description": "Professional legal and documentation service including drafting, verification, translation and compliance support.",
+    "category": "Legal & Documentation Services",
+    "slaHours": 720,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370443-61",
+    "code": "SRV-CH",
+    "name": "Court Hazira",
+    "baseFee": 2000,
+    "description": "E-Lawyers provides dedicated \"Court Hazira\" services, meticulously ensuring our clients' timely and formally recorded presence at court hearings. This critical procedural step is indispensable for safeguarding your legal interests, preventing adverse *ex-parte* orders or case dismissals due to non-appearance, and maintaining the uninterrupted progress of your litigation. We manage all necessary attendance formalities, alleviating the burden of frequent physical court presence.",
+    "category": "Legal & Documentation Services",
+    "slaHours": 24,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370446-62",
+    "code": "SRV-TS",
+    "name": "Translation Services",
+    "baseFee": 2000,
+    "description": "Professional legal and documentation service including drafting, verification, translation and compliance support.",
+    "category": "Legal & Documentation Services",
+    "slaHours": 72,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370449-63",
+    "code": "SRV-LDT",
+    "name": "Land Deed Translation",
+    "baseFee": 4000,
+    "description": "Professional legal and documentation service including drafting, verification, translation and compliance support.",
+    "category": "Legal & Documentation Services",
+    "slaHours": 120,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370452-64",
+    "code": "SRV-NT",
+    "name": "Nikahnama Translation",
+    "baseFee": 3000,
+    "description": "E-Lawyers provides professional and certified Nikahnama Translation services, accurately converting official Muslim marriage contracts from Bengali/Arabic into English and other desired languages. This essential service facilitates crucial international legal processes, including visa and immigration applications, foreign divorce proceedings, property disputes abroad, and academic credential verification, where legal recognition of your marriage is paramount. Our service ensures accuracy, confidentiality, and strict legal compliance.",
+    "category": "Legal & Documentation Services",
+    "slaHours": 72,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370455-65",
+    "code": "SRV-ND",
+    "name": "Name Declaration",
+    "baseFee": 2000,
+    "description": "Professional legal and documentation service including drafting, verification, translation and compliance support.",
+    "category": "Legal & Documentation Services",
+    "slaHours": 48,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370457-66",
+    "code": "SRV-ARSDS",
+    "name": "Audit Report Signing (DVS System)",
+    "baseFee": 15000,
+    "description": "Audit and accounting support service ensuring accurate financial reporting, compliance and professional audit documentation.",
+    "category": "Audit & Accounting Services",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370459-67",
+    "code": "SRV-ARSND",
+    "name": "Audit Report Signing (Non-DVS)",
+    "baseFee": 10000,
+    "description": "Our \"Audit Report Signing (Non-DVS)\" service is tailored for entities requiring legally compliant audit reports for purposes not involving Bangladesh's Document Verification System (DVS). This includes reports for sole proprietorships, partnerships, NGOs, specific project financing, or internal compliance needs. We ensure that your financial statements are accurately reviewed by qualified auditors and legally attested, maintaining full integrity and adherence to relevant non-DVS regulatory frameworks. E-Lawyers acts as your trusted facilitator, streamlining the entire process.",
+    "category": "Audit & Accounting Services",
+    "slaHours": 120,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370462-68",
+    "code": "SRV-IAS",
+    "name": "Internal Audit Services",
+    "baseFee": 25000,
+    "description": "Audit and accounting support service ensuring accurate financial reporting, compliance and professional audit documentation.",
+    "category": "Audit & Accounting Services",
+    "slaHours": 336,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370464-69",
+    "code": "SRV-FSP",
+    "name": "Financial Statement Preparation",
+    "baseFee": 15000,
+    "description": "Audit and accounting support service ensuring accurate financial reporting, compliance and professional audit documentation.",
+    "category": "Audit & Accounting Services",
+    "slaHours": 240,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370467-70",
+    "code": "SRV-FRAADS",
+    "name": "Financial Reporting & Audit Documentation Support",
+    "baseFee": 15000,
+    "description": "Audit and accounting support service ensuring accurate financial reporting, compliance and professional audit documentation.",
+    "category": "Audit & Accounting Services",
+    "slaHours": 240,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370469-71",
+    "code": "SRV-IOACR",
+    "name": "Increase of Authorized Capital (RJSC)",
+    "baseFee": 15000,
+    "description": "Corporate restructuring and compliance service ensuring proper legal updates and RJSC regulatory adherence.",
+    "category": "Corporate Changes & RJSC Compliance",
+    "slaHours": 336,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370472-72",
+    "code": "SRV-IOPCR",
+    "name": "Increase of Paid-up Capital (RJSC)",
+    "baseFee": 15000,
+    "description": "E-Lawyers provides expert legal and corporate secretarial assistance for companies in Bangladesh seeking to increase their Paid-up Capital. This crucial process is often driven by the need for business expansion, project financing, strengthening financial position, or meeting specific regulatory and tender requirements. We ensure full compliance with the Companies Act, 1994, and all relevant Registrar of Joint Stock Companies and Firms (RJSC) regulations during the share issuance or capitalization of reserves.",
+    "category": "Corporate Changes & RJSC Compliance",
+    "slaHours": 336,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370476-73",
+    "code": "SRV-BOC",
+    "name": "Business Ownership Change",
+    "baseFee": 25000,
+    "description": "Corporate restructuring and compliance service ensuring proper legal updates and RJSC regulatory adherence.",
+    "category": "Corporate Changes & RJSC Compliance",
+    "slaHours": 504,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370479-74",
+    "code": "SRV-BTCVL",
+    "name": "Business Transfer Compliance (VAT Laws)",
+    "baseFee": 20000,
+    "description": "Corporate restructuring and compliance service ensuring proper legal updates and RJSC regulatory adherence.",
+    "category": "Corporate Changes & RJSC Compliance",
+    "slaHours": 336,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370483-75",
+    "code": "SRV-AODR",
+    "name": "Appointment of Director (RJSC)",
+    "baseFee": 10000,
+    "description": "Corporate restructuring and compliance service ensuring proper legal updates and RJSC regulatory adherence.",
+    "category": "Corporate Changes & RJSC Compliance",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370485-76",
+    "code": "SRV-SAFD",
+    "name": "Share Allotment (Foreign Director)",
+    "baseFee": 20000,
+    "description": "Corporate restructuring and compliance service ensuring proper legal updates and RJSC regulatory adherence.",
+    "category": "Corporate Changes & RJSC Compliance",
+    "slaHours": 336,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370488-77",
+    "code": "SRV-PFOC",
+    "name": "Partnership Firm Ownership Change",
+    "baseFee": 15000,
+    "description": "Corporate restructuring and compliance service ensuring proper legal updates and RJSC regulatory adherence.",
+    "category": "Corporate Changes & RJSC Compliance",
+    "slaHours": 336,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370490-78",
+    "code": "SRV-WUOCR",
+    "name": "Winding Up of Company (RJSC)",
+    "baseFee": 50000,
+    "description": "Corporate restructuring and compliance service ensuring proper legal updates and RJSC regulatory adherence.",
+    "category": "Corporate Changes & RJSC Compliance",
+    "slaHours": 1440,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370492-79",
+    "code": "SRV-WUOPF",
+    "name": "Winding Up of Partnership Firm",
+    "baseFee": 25000,
+    "description": "Our expert service facilitates the formal, compliant, and efficient dissolution of partnership firms in Bangladesh. We manage the entire process, ensuring a structured cessation of business operations, meticulous settlement of liabilities, and proper distribution of assets. This safeguards partners from future legal and financial complications, adhering strictly to the Partnership Act, 1932, and other relevant regulatory requirements.",
+    "category": "Corporate Changes & RJSC Compliance",
+    "slaHours": 720,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370494-80",
+    "code": "SRV-RARF",
+    "name": "RJSC Annual Return Filing",
+    "baseFee": 5000,
+    "description": "Ensuring mandatory annual compliance, E-Lawyers provides expert assistance for \"RJSC Annual Return Filing\" for all companies registered in Bangladesh. This vital service ensures your company submits its statutory and financial information to the Registrar of Joint Stock Companies and Firms (RJSC) within stipulated deadlines, preventing penalties, maintaining legal standing, and fostering transparency.",
+    "category": "Corporate Changes & RJSC Compliance",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370497-81",
+    "code": "SRV-RDACS",
+    "name": "RJSC Documentation & Compliance Support",
+    "baseFee": 5000,
+    "description": "Corporate restructuring and compliance service ensuring proper legal updates and RJSC regulatory adherence.",
+    "category": "Corporate Changes & RJSC Compliance",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370500-82",
+    "code": "SRV-RODR",
+    "name": "Removal of Director (RJSC)",
+    "baseFee": 15000,
+    "description": "Corporate restructuring and compliance service ensuring proper legal updates and RJSC regulatory adherence.",
+    "category": "Corporate Changes & RJSC Compliance",
+    "slaHours": 336,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370504-83",
+    "code": "SRV-BGBAM",
+    "name": "BGBA Membership",
+    "baseFee": 10000,
+    "description": "Professional business service ensuring compliance, documentation support and regulatory approval assistance.",
+    "category": "Membership & Association Services",
+    "slaHours": 336,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370507-84",
+    "code": "SRV-BASISMU",
+    "name": "BASIS Membership Update",
+    "baseFee": 5000,
+    "description": "Professional business service ensuring compliance, documentation support and regulatory approval assistance.",
+    "category": "Membership & Association Services",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370509-85",
+    "code": "SRV-IRCM",
+    "name": "IRC Membership",
+    "baseFee": 10000,
+    "description": "Professional business service ensuring compliance, documentation support and regulatory approval assistance.",
+    "category": "Membership & Association Services",
+    "slaHours": 336,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370511-86",
+    "code": "SRV-AMS",
+    "name": "Association Membership Services",
+    "baseFee": 10000,
+    "description": "Professional business service ensuring compliance, documentation support and regulatory approval assistance.",
+    "category": "Membership & Association Services",
+    "slaHours": 336,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370514-87",
+    "code": "SRV-PF",
+    "name": "Professional Fees",
+    "baseFee": 5000,
+    "description": "Certification and special reporting service ensuring verified documentation and compliance-based reporting.",
+    "category": "Certification & Special Reports",
+    "slaHours": 24,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370517-88",
+    "code": "SRV-LF",
+    "name": "Legal Fees",
+    "baseFee": 5000,
+    "description": "Certification and special reporting service ensuring verified documentation and compliance-based reporting.",
+    "category": "Certification & Special Reports",
+    "slaHours": 24,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370521-89",
+    "code": "SRV-AVRP",
+    "name": "Asset Valuation Report Preparation",
+    "baseFee": 20000,
+    "description": "Certification and special reporting service ensuring verified documentation and compliance-based reporting.",
+    "category": "Certification & Special Reports",
+    "slaHours": 336,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370524-90",
+    "code": "SRV-CCOTF",
+    "name": "Certified Copy of Tax File",
+    "baseFee": 3000,
+    "description": "Certification and special reporting service ensuring verified documentation and compliance-based reporting.",
+    "category": "Certification & Special Reports",
+    "slaHours": 168,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370527-91",
+    "code": "SRV-EECS",
+    "name": "ESG/ESRM Compliance Services",
+    "baseFee": 50000,
+    "description": "Certification and special reporting service ensuring verified documentation and compliance-based reporting.",
+    "category": "Certification & Special Reports",
+    "slaHours": 720,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370530-92",
+    "code": "SRV-SD",
+    "name": "Sponsorship Declaration",
+    "baseFee": 3000,
+    "description": "Certification and special reporting service ensuring verified documentation and compliance-based reporting.",
+    "category": "Certification & Special Reports",
+    "slaHours": 72,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370536-93",
+    "code": "SRV-RD",
+    "name": "Relationship Declaration",
+    "baseFee": 3000,
+    "description": "Certification and special reporting service ensuring verified documentation and compliance-based reporting.",
+    "category": "Certification & Special Reports",
+    "slaHours": 72,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370538-94",
+    "code": "SRV-TR",
+    "name": "Trademark Registration",
+    "baseFee": 15000,
+    "description": "Corporate restructuring and compliance service ensuring proper legal updates and RJSC regulatory adherence.",
+    "category": "Corporate Changes & RJSC Compliance",
+    "slaHours": 720,
+    "vatRate": 15
+  },
+  {
+    "id": "cat-srv-1783887370541-95",
+    "code": "SRV-CR",
+    "name": "Copyright Registration",
+    "baseFee": 15000,
+    "description": "The Articles of Association (AOA) defines a company's internal regulations, governance, and shareholder rights. We provide expert legal assistance to companies seeking to amend their AOA, whether to adapt to evolving business objectives, comply with updated regulatory frameworks, restructure share capital, or modify internal management protocols. Our service ensures your company's operational blueprint remains current and legally robust. Professional preparation and certification of Asset Valuation Reports for businesses, financial institutions, investors, and regulatory compliance purposes. Our service includes the assessment and valuation of fixed assets, machinery, equipment, land, buildings, and other business assets based on recognized valuation standards and supporting documentation. Our \"Audit Report Signing (Non-DVS)\" service is tailored for entities requiring legally compliant audit reports for purposes not involving Bangladesh's Document Verification System (DVS). This includes reports for sole proprietorships, partnerships, NGOs, specific project financing, or internal compliance needs. We ensure that your financial statements are accurately reviewed by qualified auditors and legally attested, maintaining full integrity and adherence to relevant non-DVS regulatory frameworks. E-Lawyers acts as your trusted facilitator, streamlining the entire process. Our \"Bank Charges & Processing\" service provides comprehensive legal and financial scrutiny of banking fees, commissions, and charges levied by financial institutions in Bangladesh. We ensure transparency, compliance, and cost-effectiveness for businesses and individuals, identifying potential overcharges or non-compliance with regulatory guidelines, helping clients optimize financial outflows and secure fair treatment. In Bangladesh, BIN stands for Business Identification Number. Issued by the National Board of Revenue (NBR), it serves as your business's official Value Added Tax (VAT) Registration. E-Lawyers offers expert assistance for Company Business Identification Number (BIN) registration in Bangladesh. This mandatory registration is crucial for VAT compliance, legal business operations, and facilitating both domestic and international trade. Our service streamlines the entire process, ensuring your company obtains its official BIN from the National Board of Revenue (NBR) efficiently and without hassle, enabling proper tax management. E-Lawyers provides expert Deed Summary Preparation, condensing lengthy legal instruments (e.g., Sale, Gift, Mortgage Deeds) into precise, actionable summaries. This service is essential for rapid comprehension, due diligence, and informed decision-making in property matters, litigation, or corporate transactions. Our summaries streamline legal review, saving valuable time and mitigating risks for businesses and individuals across Bangladesh. E-Lawyers offers expert legal and business consultancy for obtaining the mandatory Export Registration Certificate (ERC) in Bangladesh. Issued by the Office of the Chief Controller of Imports & Exports (CCI&E), the ERC is a prerequisite for all entities aiming to legally export goods or services from Bangladesh, ensuring compliance with the Import Policy Order and enabling access to various government incentives and trade benefits. This service is designed for individuals and businesses in Bangladesh who have lost access to their Electronic Taxpayer Identification Number (E-TIN) account due to forgotten passwords, lost associated email/phone numbers, or other access issues. We facilitate the swift and secure recovery of your E-TIN credentials, ensuring uninterrupted tax compliance and preventing penalties. E-Lawyers offers expert legal assistance for securing Explosive Licenses in Bangladesh. This critical service is indispensable for businesses and organizations involved in the import, export, manufacture, possession, sale, or use of explosives, such as those in construction, mining, and pyrotechnics. We ensure full compliance with the Explosives Act, 1884, and all relevant regulatory frameworks, mitigating risks and upholding public safety standards. E-Lawyers provides expert legal and corporate secretarial assistance for companies in Bangladesh seeking to increase their Paid-up Capital. This crucial process is often driven by the need for business expansion, project financing, strengthening financial position, or meeting specific regulatory and tender requirements. We ensure full compliance with the Companies Act, 1994, and all relevant Registrar of Joint Stock Companies and Firms (RJSC) regulations during the share issuance or capitalization of reserves. Our Legal Notice Drafting service provides expert preparation of formal communications that legally notify an individual or entity of an intention to undertake legal proceedings, demand compliance, or formally raise a dispute. This critical first step in dispute resolution, often a prerequisite to litigation, strategically articulates your position and seeks a structured resolution before court intervention. E-Lawyers' Membership Services offer comprehensive legal and advisory support for establishing, structuring, and maintaining various membership-based organizations in Bangladesh. This includes professional bodies, clubs, NGOs, cooperative societies, and other member-driven entities. We ensure the creation of robust legal frameworks that facilitate effective governance, operational efficiency, and regulatory compliance. E-Lawyers provides expert assistance for timely and accurate monthly Value Added Tax (VAT) return submission, ensuring your business full compliance with Bangladesh's National Board of Revenue (NBR) regulations. Our service mitigates the risk of penalties, interest, and potential audits, allowing your business to operate smoothly and efficiently. E-Lawyers provides professional and certified Nikahnama Translation services, accurately converting official Muslim marriage contracts from Bengali/Arabic into English and other desired languages. This essential service facilitates crucial international legal processes, including visa and immigration applications, foreign divorce proceedings, property disputes abroad, and academic credential verification, where legal recognition of your marriage is paramount. Our service ensures accuracy, confidentiality, and strict legal compliance. E-Lawyers offers an immersive, offline training program designed to equip individuals, professionals, and businesses with comprehensive knowledge of Bangladesh's income tax laws and compliance procedures. This interactive session demystifies the complexities of the Income Tax Act, NBR guidelines, and recent amendments, fostering practical skills for accurate tax planning and efficient return preparation. Our expert-led training ensures participants gain confidence in navigating their tax obligations effectively. As a leading law firm, E-Lawyers provides expert legal assistance in preparing comprehensive Partnership Deeds, crucial for establishing a clear, legally sound foundation for your business partnership in Bangladesh. This service meticulously outlines partners' rights, responsibilities, capital contributions, profit/loss sharing, management structure, dispute resolution mechanisms, and dissolution procedures, preventing future conflicts and ensuring operational clarity. Ensuring mandatory annual compliance, E-Lawyers provides expert assistance for \"RJSC Annual Return Filing\" for all companies registered in Bangladesh. This vital service ensures your company submits its statutory and financial information to the Registrar of Joint Stock Companies and Firms (RJSC) within stipulated deadlines, preventing penalties, maintaining legal standing, and fostering transparency. As your trusted legal and business consultant, E-Lawyers offers precise Company Tax Calculation services, ensuring full compliance with Bangladesh's tax regulations. Utilizing your audited financial statements, we meticulously determine your corporate tax liability to the National Board of Revenue (NBR), optimizing your tax position and mitigating compliance risks. This crucial service ensures individuals, companies, and organizations meticulously fulfill their annual tax obligations in Bangladesh. E-Lawyers provides comprehensive support, from accurate income tax return (ITR) preparation to facilitating timely payment with the National Board of Revenue (NBR). Our expertise guarantees compliance with current tax laws, minimizing legal exposure and optimizing your financial position. E-Lawyers offers comprehensive support to Foundations in Bangladesh for the accurate and timely submission of their annual tax returns to the National Board of Revenue (NBR). Our service ensures full compliance with the Income Tax Ordinance, 1984, and related regulations, protecting your Foundation from potential penalties and upholding its legal integrity and financial transparency. Our TDS Challan Processing service provides comprehensive support for businesses navigating Bangladesh's Tax Deducted at Source (TDS) regulations. We ensure accurate, timely calculation and deposit of TDS, minimizing compliance risks and avoiding penalties from the National Board of Revenue (NBR). E-Lawyers streamlines this crucial process, allowing clients to focus on core business activities while maintaining impeccable tax records. This essential service facilitates the legal amendment of your company's name on its Import Registration Certificate (IRC) and Export Registration Certificate (ERC) with the Chief Controller of Imports & Exports (CCI&E). A name update is crucial for businesses undergoing corporate restructuring, branding changes, or other legal name alterations, ensuring continued compliance and uninterrupted international trade operations in Bangladesh. Our experts streamline the entire process, preventing potential legal complications and operational delays. As E-Lawyers, we offer expert assistance in updating your name on your Taxpayer Identification Number (TIN) Certificate, ensuring compliance and accurate tax records in Bangladesh. This essential service is required for individuals who have undergone a legal name change (e.g., due to marriage, divorce, official amendment), or need to correct a previously recorded error. An updated TIN is crucial for all tax-related activities and official submissions. Our expert service facilitates the formal, compliant, and efficient dissolution of partnership firms in Bangladesh. We manage the entire process, ensuring a structured cessation of business operations, meticulous settlement of liabilities, and proper distribution of assets. This safeguards partners from future legal and financial complications, adhering strictly to the Partnership Act, 1932, and other relevant regulatory requirements. This essential service legally establishes the necessary linkage between your Business Identification Number (BIN) and your designated Clearing & Forwarding (C&F) Agent in Bangladesh. This vital linkage legally empowers the C&F Agent to execute customs clearance procedures on your behalf, guaranteeing efficient and compliant import/export cargo movement and preventing costly delays. This comprehensive service guides clients through the official and legal dissolution of a registered partnership firm in Bangladesh, ensuring full compliance with the Partnership Act, 1932, and RJSC regulations. We manage all procedures from partner agreement to final RJSC de-registration, ensuring a smooth and legally sound closure of the business entity. This essential service provides comprehensive legal and administrative guidance for the formal dissolution and deregistration of partnership firms registered with the Registrar of Joint Stock Companies and Firms (RJSC) in Bangladesh. We ensure your firm is legally wound up, ceasing its existence and liabilities in full compliance with the Partnership Act, 1932, and other relevant regulations, providing a seamless and compliant closure process. E-Lawyers provides dedicated \"Court Hazira\" services, meticulously ensuring our clients' timely and formally recorded presence at court hearings. This critical procedural step is indispensable for safeguarding your legal interests, preventing adverse *ex-parte* orders or case dismissals due to non-appearance, and maintaining the uninterrupted progress of your litigation. We manage all necessary attendance formalities, alleviating the burden of frequent physical court presence. E-Lawyers offers expert and professional assistance for the mandatory annual return filing of societies registered under the Societies Registration Act, 1860, with the Registrar of Joint Stock Companies and Firms (RJSC) in Bangladesh. This critical compliance ensures your society maintains legal standing, transparency, and avoids penalties or potential dissolution for non-adherence. At E-Lawyers, we provide expert legal representation for Charge Hearings, a pivotal stage in criminal proceedings under Bangladeshi law. This hearing critically determines whether *prima facie* evidence exists to formally frame charges against an accused and proceed to a full trial, or if the accused should be discharged. Our service ensures rigorous legal analysis and robust advocacy to protect our clients' interests effectively at this crucial juncture. This service ensures your company's seamless compliance with regulatory requirements following the election or re-election of directors. We meticulously handle the intricate process of notifying the Registrar of Joint Stock Companies and Firms (RJSC) about changes in your company's directorship, a critical step for maintaining legal standing and corporate transparency under the Companies Act 1994. E-Lawyers provides comprehensive Company Tax Return Submission services, ensuring full compliance with Bangladesh's National Board of Revenue (NBR) regulations. Our experts meticulously prepare and submit annual corporate income tax returns, minimizing liabilities, optimizing eligible deductions, and preventing penalties, thereby allowing businesses to focus on their core operations. Assistance in obtaining a Digital Business Identification (DBID) from the relevant authority, including application preparation, document review, submission, follow-up, and compliance support to ensure successful registration and issuance of the DBID certificate. E-Lawyers offers expert legal and business consultancy for the professional and compliant cancellation of Trade Licenses in Bangladesh. This critical service is essential for businesses ceasing operations, relocating their primary trade activity outside the current jurisdiction, or undergoing significant business structure changes. Proper cancellation prevents future liabilities, penalties, and ensures a clean legal closure or transition.",
+    "category": "Corporate Changes & RJSC Compliance",
+    "slaHours": 720,
+    "vatRate": 15
+  }
+]

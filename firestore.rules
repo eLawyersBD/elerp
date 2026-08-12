@@ -1,0 +1,170 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function getUserRole() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role;
+    }
+    
+    function hasRole(role) {
+      return isAuthenticated() && getUserRole() == role;
+    }
+    
+    function hasAnyRole(roles) {
+      return isAuthenticated() && (getUserRole() in roles);
+    }
+
+    // Match users collection
+    match /users/{userId} {
+      allow read: if isAuthenticated() || true;
+      allow write: if isAuthenticated() || true;
+    }
+
+    // Match products
+    match /products/{id} {
+      allow read, write: if true;
+    }
+
+    // Match stock movements
+    match /stock_movements/{id} {
+      allow read, write: if true;
+    }
+
+    // Match reorder requests
+    match /reorder_requests/{id} {
+      allow read, write: if true;
+    }
+
+    // Match sales invoices
+    match /sales_invoices/{id} {
+      allow read, write: if true;
+    }
+
+    // Match sales returns
+    match /sales_returns/{id} {
+      allow read, write: if true;
+    }
+
+    // Match purchase invoices
+    match /purchase_invoices/{id} {
+      allow read, write: if true;
+    }
+
+    // Match purchase returns
+    match /purchase_returns/{id} {
+      allow read, write: if true;
+    }
+
+    // Match payments & receipts
+    match /payments/{id} {
+      allow read, write: if true;
+    }
+
+    // Match chart of accounts
+    match /chart_of_accounts/{id} {
+      allow read, write: if true;
+    }
+
+    // Match journal entries
+    match /journal_entries/{id} {
+      allow read, write: if true;
+    }
+
+    // Match audit logs
+    match /audit_logs/{id} {
+      allow read, write: if true;
+    }
+
+    // Match settings
+    match /settings/{id} {
+      allow read, write: if true;
+    }
+
+    // Match customers
+    match /customers/{id} {
+      allow read, write: if true;
+    }
+
+    // Match suppliers
+    match /suppliers/{id} {
+      allow read, write: if true;
+    }
+
+    // Match quotations
+    match /quotations/{id} {
+      allow read, write: if true;
+    }
+
+    // Match sales orders
+    match /sales_orders/{id} {
+      allow read, write: if true;
+    }
+
+    // Match leads
+    match /leads/{id} {
+      allow read, write: if true;
+    }
+
+    // Match LCs
+    match /lcs/{id} {
+      allow read, write: if true;
+    }
+
+    // Match procurement
+    match /procurement_plans/{id} {
+      allow read, write: if true;
+    }
+    match /purchase_requisitions/{id} {
+      allow read, write: if true;
+    }
+    match /purchase_orders/{id} {
+      allow read, write: if true;
+    }
+    match /goods_receive_notes/{id} {
+      allow read, write: if true;
+    }
+
+    // Match service module
+    match /service_assets/{id} {
+      allow read, write: if true;
+    }
+    match /amc_contracts/{id} {
+      allow read, write: if true;
+    }
+    match /service_tickets/{id} {
+      allow read, write: if true;
+    }
+    match /service_estimates/{id} {
+      allow read, write: if true;
+    }
+    match /services/{id} {
+      allow read, write: if true;
+    }
+
+    // Match tasks
+    match /task_templates/{id} {
+      allow read, write: if true;
+    }
+    match /task_rules/{id} {
+      allow read, write: if true;
+    }
+    match /tasks/{id} {
+      allow read, write: if true;
+    }
+
+    // Match VAT rates
+    match /vat_rates/{id} {
+      allow read, write: if true;
+    }
+
+    // Fallback rule for any other collection
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}

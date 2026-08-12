@@ -1,0 +1,81 @@
+# Implementation Plan — Font Size Consistency and Aesthetic Optimization
+
+This plan outlines the steps to standardize typography and font sizes across the entire ERP web application. By replacing arbitrary, hardcoded inline and stylesheet-specific font sizes with a centralized typography scale of CSS variables, we will ensure that text displays consistently, professionally, and beautifully on every page.
+
+## User Review Required
+
+> [!IMPORTANT]
+> **Typography Scale Introduction**
+> We are proposing a standard typographic scale based on CSS variables inside the global [index.css](file:///d:/OneWebPC/OneDrive/ERP%20for%20U/src/index.css). 
+> - `--font-size-xs`: `0.75rem` (12px) - for badges, metadata, captions, tooltips.
+> - `--font-size-sm`: `0.875rem` (14px) - for table contents, helper text, form inputs, secondary buttons.
+> - `--font-size-base`: `1rem` (16px) - for standard body text, primary labels, main buttons.
+> - `--font-size-md`: `1.125rem` (18px) - for card headers, view subheaders.
+> - `--font-size-lg`: `1.25rem` (20px) - for modal titles, primary section headers.
+> - `--font-size-xl`: `1.5rem` (24px) - for module names, secondary page titles.
+> - `--font-size-2xl`: `1.75rem` (28px) - for main view headings, metric values.
+> - `--font-size-3xl`: `2.25rem` (36px) - for large displays, hero headers.
+
+> [!TIP]
+> **Helper Utility Classes**
+> We will also introduce utility classes like `.text-sm` and `.text-md` which map directly to these variables. This allows us to write cleaner JSX and easily maintain spacing or scale.
+
+---
+
+## Proposed Changes
+
+### Global Styling
+
+#### [MODIFY] [index.css](file:///d:/OneWebPC/OneDrive/ERP%20for%20U/src/index.css)
+- Define standard font-size variables in the `:root` pseudo-class (and the `[data-theme="dark"]` override if necessary).
+- Introduce text utility classes (`.text-xs`, `.text-sm`, `.text-base`, `.text-md`, `.text-lg`, `.text-xl`, `.text-2xl`, `.text-3xl`).
+- Refactor existing styling rules throughout `index.css` to replace hardcoded values (e.g. `0.85rem`, `1.25rem`) with CSS variable references.
+
+---
+
+### Component-Embedded Stylesheets
+
+We will update embedded `<style>` tags in key React files to reference global CSS variables instead of hardcoded values:
+
+#### [MODIFY] [Login.jsx](file:///d:/OneWebPC/OneDrive/ERP%20for%20U/src/components/hrms/Login.jsx)
+- Update embedded CSS rules like `.elv5-brand-logo`, `.elv5-brand-name`, `.elv5-greeting`, and input field styling.
+
+#### [MODIFY] [EmployeeManagement.jsx](file:///d:/OneWebPC/OneDrive/ERP%20for%20U/src/components/hrms/EmployeeManagement.jsx)
+- Replace static font-size values in component-scoped stylesheet declarations.
+
+#### [MODIFY] [TaxManagement.jsx](file:///d:/OneWebPC/OneDrive/ERP%20for%20U/src/components/hrms/TaxManagement.jsx)
+- Standardize nested tables and input font sizes to reference variables.
+
+#### [MODIFY] [ForceChangePassword.jsx](file:///d:/OneWebPC/OneDrive/ERP%20for%20U/src/components/hrms/ForceChangePassword.jsx)
+- Update reset card titles and input text sizes.
+
+#### [MODIFY] [LoginView.jsx](file:///d:/OneWebPC/OneDrive/ERP%20for%20U/src/views/LoginView.jsx)
+- Update primary login page layout and title proportions.
+
+#### [MODIFY] [DashboardView.jsx](file:///d:/OneWebPC/OneDrive/ERP%20for%20U/src/views/DashboardView.jsx)
+- Refactor local card header styles and mini metrics list.
+
+---
+
+### Views & Pages Inline Styles
+
+We will update views where `style={{ fontSize: '...' }}` is hardcoded to reference CSS variables or standard utility classes:
+
+#### [MODIFY] [VoucherView.jsx](file:///d:/OneWebPC/OneDrive/ERP%20for%20U/src/views/VoucherView.jsx)
+- Modify maker-checker workspace headers, support document widgets, and activity list styles.
+
+#### [MODIFY] [ProcurementPlanningView.jsx](file:///d:/OneWebPC/OneDrive/ERP%20for%20U/src/views/ProcurementPlanningView.jsx)
+- Refactor timeline highlights, items grid, and custom summary panel texts.
+
+#### [MODIFY] [AccountingView.jsx](file:///d:/OneWebPC/OneDrive/ERP%20for%20U/src/views/AccountingView.jsx)
+- Standardize ledger sheets, fiscal periods, and balance sheet tables text styling.
+
+---
+
+## Verification Plan
+
+### Manual Verification
+- Deploy/run the local development server using `npm run dev`.
+- Navigate through all modules (HRMS Portal, Accounting/Ledger Views, Voucher Workspace, Procurement Planning, Dashboard, and Login screens).
+- Verify styling consistency across the application.
+- Inspect elements in Chrome DevTools to confirm that typography rules resolve correctly to `var(--font-size-...)`.
